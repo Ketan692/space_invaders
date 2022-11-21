@@ -7,6 +7,7 @@ from scoreboard import ScoreBoard
 window = Screen()
 window.setup(width=600, height=700, startx=450, starty=10)
 window.bgcolor("black")
+window.title("Space Invaders")
 
 
 player = Player()
